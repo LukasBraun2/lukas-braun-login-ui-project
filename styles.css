@@ -15,15 +15,21 @@
 }
 
 .loginBox{
-    /* make a box for login, needs to be centered */
-    width: 245px;
-    height: 245px;
-    
+    /* make a box for login*/
+    min-width: 300px;
+    min-height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+
+    /*use flex to center*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+    /*add even spacing so everything in the login box fits nicely*/
+    align-items: space-evenly;
+    justify-content: space-evenly;
 }
