@@ -1,3 +1,4 @@
+/*add the most amazing background ever*/
 body {
     background: url(https://staticdelivery.nexusmods.com/mods/110/images/73848-0-1457333770.jpg);
 }
@@ -13,7 +14,7 @@ body {
 
 #thumbnail{
     /*creates a shadow effect*/
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.6);
     
 }
 
