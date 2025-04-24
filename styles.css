@@ -17,7 +17,11 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.6), 0 6px 6px rgba(0,0,0,0.6);
     
 }
-
+/*make font more visible*/
+h1{
+    color:#f5b042;
+    font-weight: 9999;
+}
 .loginBox{
     /* make a box for login with a minimum give it a border to make a visual box*/
     min-width: 300px;
