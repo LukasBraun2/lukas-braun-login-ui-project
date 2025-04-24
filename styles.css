@@ -1,3 +1,6 @@
+body {
+    background: url(https://staticdelivery.nexusmods.com/mods/110/images/73848-0-1457333770.jpg);
+}
 .container { /*setup a container to put items in*/
     height: 100vh;
     width: 100vw;
@@ -15,10 +18,11 @@
 }
 
 .loginBox{
-    /* make a box for login*/
+    /* make a box for login with a minimum give it a border to make a visual box*/
     min-width: 300px;
     min-height: 300px;
     border: 1px solid #ccc;
+    /*round the edges*/
     border-radius: 5px;
 
     /*use flex to center*/
@@ -32,4 +36,12 @@
     /*add even spacing so everything in the login box fits nicely*/
     align-items: space-evenly;
     justify-content: space-evenly;
+}
+
+    /*make the login button prettier*/
+.button{
+    background-color: #f5b042;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
 }
